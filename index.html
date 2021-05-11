@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+    <script src="https://kit.fontawesome.com/b723e8bcff.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <nav id="navbar">
+        <ul>
+            <li><a href="#welcome-section">About</a></li>
+            <li><a href="#projects-header">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="welcome-section">
+        <h1>Hey I'm Sean</h1>
+        <em><p>the web developer</p></em>
+    </div>
+
+    <h1 id="projects-header">Here is some of my work</h1>
+    <div id="projects">
+                    <!-- movie app, water consumption app, drawing app, ringtones website inspired by https://github.com/bradtraversy, product landing page inspired by razer.com  -->
+        <div class="project-tile" style="background-image: url('resources/movie-tile.png')"><a href="https://glitch.com/edit/#!/sean-movie-app?path=index.html%3A28%3A0"></a><h3>Movie app</h3><img id="touch-here" src="resources/touch-here.gif" alt=""></a></div>
+        <div class="project-tile" style="background-image: url('resources/razer-tile.png')"><h3>Product landing page</h3><img id="touch-here" src="resources/touch-here.gif" alt=""></div>
+        <div class="project-tile active" style="background-image: url('resources/ringtones-tile.png')"><h3>Ringtones website</h3><img id="touch-here" src="resources/touch-here.gif" alt=""></div>
+        <div class="project-tile" style="background-image: url('resources/water-tile.png')"><h3>Water consumption tracker</h3><img id="touch-here" src="resources/touch-here.gif" alt=""></div>
+        <div class="project-tile" style="background-image: url('resources/drawing-tile.png')"><h3>Drawing app</h3><img id="touch-here" src="resources/touch-here.gif" alt=""></div>
+    </div>
+
+    <div id="contact">
+        <h2>Let's work together</h2>
+        <div id="contact-links">
+            <a id="profile-link" class="github" href="https://github.com/seanred360" target="_blank"><i class="fab fa-github"></i><span>Github</span></a>
+            <a id="profile-link" class="callme" href="tel:555-555-5555" target="_blank"><i class="fas fa-mobile-alt"></i><span>Call me</span></a>
+            <a id="profile-link" class="emailme"href="mailto:seen360@yahoo.com" target="_blank"><i class="fas fa-at"></i><span>Email me</span></a>
+            <a id="profile-link" class="wechat" href="https://github.com/seanred360" target="_blank"><i class="fab fa-weixin"></i><span>Wechat</span></a>
+        </div> 
+    </div>
+
+    <footer></footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
