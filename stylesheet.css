@@ -211,4 +211,8 @@ footer {
     .project-tile:nth-of-type(6) {
         display: none;
     }
+
+    #contact-links {
+        flex-direction: column;
+    }
 }
